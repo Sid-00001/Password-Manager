@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(34, 139, 205);
+    background: linear-gradient(90deg, rgba(34, 139, 205, 1) 0%, rgba(0, 195, 255, 1) 8%, rgba(221, 63, 223, 1) 93%);
+
+}
+
+nav {
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul>li:hover {
+    color: white;
+
+}
+
+.container-div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 65px;
+    text-align: center;
+    max-width: 650px;
+    height: 750px;
+
+}
+
+.title-area {
+    background-color: white;
+    border-radius: 13px;
+
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    font-size: larger;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 140px;
+    color: #dd3fdf;
+
+}
+
+/* .title-area:hover {
+    box-shadow: 0 5px 5px rgb(0, 0, 0),
+        0 5px 5px rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease-in-out;
+
+} */
+
+
+
+
+.add-title {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    width: 600px;
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 20px;
+    border-color: rgb(78, 127, 157);
+
+    border-bottom: solid;
+    color: #dd3fdf;
+
+}
+
+
+form {
+    margin-top: 20px;
+    padding: 2rem;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+input {
+    border-radius: 12px;
+    width: 300px;
+    height: 30px;
+    border-color: slategray;
+    border: dotted;
+    text-align: center;
+    font-size: medium;
+}
+
+input:hover {
+    border: 3px solid black;
+}
+
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+
+    width: 350px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 15px;
+    margin: 25px 0;
+    cursor: pointer;
+    background: rgb(34, 139, 205);
+    background: linear-gradient(90deg, rgba(34, 139, 205, 1) 0%, rgba(0, 195, 255, 1) 8%, rgba(221, 63, 223, 1) 93%);
+}
+
+
+
+
+
+
+
+.info {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.passwords {
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    margin-bottom: 5rem;
+
+}
+
+.p-title {
+    border-color: rgb(78, 127, 157);
+    border-bottom: solid;
+    color: #dd3fdf;
+    margin-top: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 30rem;
+    color: #dd3fdf;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+
+}
+
+.table{
+    margin-bottom: 5rem;
+
+}
+
+
+table,
+td,
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+
+img {
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert {
+    display: none;
+}
