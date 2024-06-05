@@ -88,6 +88,10 @@ ul>li:hover {
 } */
 
 
+#alert {
+    display: none;
+    color: red; /* Added error message color */
+}
 
 
 .add-title {
